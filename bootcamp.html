@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PUI Assignment 6</title>
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+        <!--p5.js canvas for Boot Camp page-->
+        <script src="libraries/p5.js" type="text/javascript"></script>
+        <script src="libraries/p5.dom.js" type="text/javascript"></script>
+         <script src="sketch.js" type="text/javascript"></script>
+        <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+            
+    </head>
+     
+    <body>
+        <div id="background">
+            <header>
+               <div class="logo">
+                   <a href="basics.html" title="logo"><h1>Logo</h1></a>
+               </div>
+            <nav>
+                    <ul>
+                        <li><a href="basics.html">Basics</a></li>
+                        <li><a href="bootcamp.html">Boot Camp</a></li>
+                        <li><a href="inspiration.html">Inspiration</a></li>
+                        <li><a href="whysketch.html">Why Sketch</a></li>
+                    </ul>
+            </nav>    
+            </header>
+            <div class="bootCamp">
+                 <div class="instructions">
+                    <h1>WARM-UP TIME!</h1>
+                    <p>Spend 5-10 minutes warming up by quickly drawing <b>dots, lines, circles, and squares.</b> Warming up is a crucial step in developing stronger and faster sketching skills because you build muscle memory in drawing basic forms. It also helps get your creative juices flowing when you only have a blank page ahead of you! </p>
+                </div>
+                <div id="canvasHolder">
+                </div>
+                <div class="buttonContainer">                
+                    <button class="clear" onclick="canvasClear('canvasHolder')"><h2>Clear Drawing</h2>
+                    </button>
+                </div>
+
+            </div>
+            
+            <div class="bootCamp">
+               <div class="instructions">
+                    <h1>MASTER THE CUBE</h1>
+                    <p>The cube is a fundamental building block to drawing in 3-D. Pay attention to <b>perspective, line weight, and shading.</b> One tip is to extend your lines pass the points of intersection. This creates a more expressive and dynamic style. If you master the cube you are well on your way to drawing anything!</p>
+                </div>
+                <div id="cube"> 
+                </div>
+                                <div class="buttonContainer">                
+                    <button class="clear" onclick="canvasClear('cube')"><h2>Clear Drawing</h2>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="bootCamp">
+               <div class="instructions">
+                    <h1>PERFECT THE CYLINDER</h1>
+                    <p>The cylinder is another fundamental building block to drawing in 3-D. Pay attention to <b>the top ellipse and bottom ellipse</b> to draw a cylinder in perspective. The top ellipse should always show less surface area than the bottom ellipse. This is because, shapes lower and higher than your horizon line visually change as they move in space.  </p>
+                </div>
+                <div id="cylinder">
+                </div>
+                                <div class="buttonContainer">                
+                    <button class="clear" onclick="canvasClear('cylinder')"><h2>Clear Drawing</h2>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="bootCamp">
+               <div class="instructions">
+                    <h1>CUBEVILLE & CYLINDER TOWN</h1>
+                    <p>Now that you have practiced warming up, cubes, and cylinders, you are equipped with drawing cubevilles and cylinder towns. <b>Begin by drawing any 3D shape and build from there.</b> In doing this, you can not only practice your basic forms and drawing principles, but you can also be as creative as you want. You can slice forms in half, combine and extrude shapes, and begin building your own world! </p>
+                </div>
+                <div id="complex"> 
+                </div>  
+                                <div class="buttonContainer">                
+                    <button class="clear" onclick="canvasClear('complex')"><h2>Clear Drawing</h2>
+                    </button>
+                </div>
+            </div>
+        </div>  
+    </body>
+</html>
