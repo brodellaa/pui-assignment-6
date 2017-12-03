@@ -156,7 +156,7 @@ header nav ul li a:hover:after{
     margin-top:100px;
     display: block;
     margin-right: 5rem;
-    margin-left: 5rem;
+    padding-left: 5rem;
     height: 500px;
 }
 
@@ -432,7 +432,7 @@ header nav ul li a:hover:after{
 .whySketch{
     display: block;
     margin-right: 5rem;
-    margin-left: 5rem;
+    padding-left: 5rem;
     height: 500px;
 }
 
@@ -556,12 +556,17 @@ div[class*="left"]{
     .basics > div{
       height:auto;
       min-height:400px;
-      width: 90%;
+      width: 100%;
+      position: relative;
     }
     .basics > div > div{
       float:none;
       display:block;
-      width:90%;
+      width:80%;
+      position: absolute;
+      top: 0px;
+      right: 5rem;
+      
     }
     .basics > div > div img{
       margin-top:0px!important;
