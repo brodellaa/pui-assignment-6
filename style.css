@@ -510,7 +510,7 @@ div[class*="left"]{
 }
 
 .inspiration{
-    margin-top:50px;
+    margin-top:95px;
     display: block;
     margin-right: 5rem;
     margin-left: 5rem;
@@ -525,7 +525,7 @@ div[class*="left"]{
 
 }
 .inspirationWords{
-    width: 40%;
+    width: 48%;
     padding: 1rem;
     text-align: left;
     display: inline-block;
@@ -691,7 +691,7 @@ div[class*="left"]{
 .inspiration{
   height:auto;
   margin-bottom:120px;
-  width: 95%;
+  width: 90%;
 }
 #background{
   padding-bottom:120px;
