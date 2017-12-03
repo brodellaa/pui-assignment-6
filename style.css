@@ -290,7 +290,7 @@ header nav ul li a:hover:after{
     #canvasHolder, #cube, #cylinder, #complex{
         margin-top: 1rem;
         margin-bottom: 3rem;
-        height: 115%;
+        height: 125%;
     }
 
     .buttonContainer{
