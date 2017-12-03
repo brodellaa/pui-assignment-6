@@ -543,7 +543,7 @@ div[class*="left"]{
 
 
 /* ----------- iPad Pro 12.9" portrait ----------- */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1100px) {
     /* For mobile phones: */
     #background {
         background-image: radial-gradient(#efefef .4vw, white .4vw);
