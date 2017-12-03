@@ -434,8 +434,6 @@ header nav ul li a:hover:after{
     margin-right: 5rem;
     margin-left: 5rem;
     height: 500px;
-    padding-bottom:100px;
-
 }
 
 .whySketchTools{
@@ -558,7 +556,6 @@ div[class*="left"]{
     
     .basics > div{
       height:auto;
-      margin-bottom:120px;
       min-height:400px;
       width: 90%;
     }
