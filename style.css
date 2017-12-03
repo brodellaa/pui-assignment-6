@@ -583,7 +583,6 @@ div[class*="left"]{
     .whySketchMain > div{
       height:auto!important;
       width:auto!important;
-      padding-bottom:120px;
     }
     .whySketch > img{
       width:100%!important;
@@ -603,7 +602,6 @@ div[class*="left"]{
 }
 
 .whySketchTools{
-    margin-top:100px;
     display: block;
     margin-right: 5rem;
     margin-left: 5rem;
@@ -619,7 +617,7 @@ div[class*="left"]{
 
 .whySketchImg img{
     margin-top:-80px;
-    width: 90%;
+    width: 100%;
 }
 
 .whySketchImgright{
