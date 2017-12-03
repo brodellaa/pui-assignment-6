@@ -188,7 +188,6 @@ header nav ul li a:hover:after{
     margin-left: 5rem;
     height: 670px;
     box-sizing:border-box;
-    padding-right:7rem;
 /*    background-color: beige;*/
 }
 
@@ -275,7 +274,7 @@ header nav ul li a:hover:after{
         width:100%!important;
     }
     .bootCamp{
-        padding-right:10rem!important;
+        width: 80%;
     }
     .instructions{
     width: 100%;
