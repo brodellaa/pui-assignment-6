@@ -565,7 +565,7 @@ div[class*="left"]{
     .basics > div > div{
       float:none;
       display:block;
-      width:100%;
+      width:90%;
     }
     .basics > div > div img{
       margin-top:0px!important;
