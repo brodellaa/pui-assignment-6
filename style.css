@@ -686,6 +686,7 @@ div[class*="left"]{
 #Instagram{
   padding-top:0!important;
   margin-bottom:120px;
+  width: 95%;
 }
 .inspiration{
   height:auto;
