@@ -322,7 +322,6 @@ body div {
   height:auto;
   margin-bottom:120px;
   min-height:400px;
-  width: 90%;
 }
 .basics > div > div{
   float:left;
@@ -561,6 +560,7 @@ div[class*="left"]{
       height:auto;
       margin-bottom:120px;
       min-height:400px;
+      width: 90%;
     }
     .basics > div > div{
       float:none;
