@@ -557,15 +557,12 @@ div[class*="left"]{
       height:auto;
       min-height:400px;
       width: 100%;
-      position: relative;
+
     }
     .basics > div > div{
       float:none;
       display:block;
       width:80%;
-      position: absolute;
-      top: 0px;
-      right: 5rem;
       
     }
     .basics > div > div img{
