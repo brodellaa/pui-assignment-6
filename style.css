@@ -108,7 +108,7 @@ header{
 }
 */
 
-nav{
+{
     line-height: 70px;
     float: right;
 }
@@ -590,9 +590,9 @@ div[class*="left"]{
       width:100%!important;
     }
 
-    nav ul li a{
+/*     nav ul li a{
         display:none;
-    }
+    } */
 
 .whySketch{
     margin-top:100px;
